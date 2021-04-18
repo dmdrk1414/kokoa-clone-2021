@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"); /* 폰트 가져오기 */
+@import url(reset.css);
+@import url(status-bar.css);
+@import url(welcom-header.css);
+@import url(login-form.css);
+@import url(variables.css);
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
