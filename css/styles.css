@@ -1,10 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"); /* 폰트 가져오기 */
 @import url(reset.css);
-@import url(status-bar.css);
-@import url(welcom-header.css);
-@import url(login-form.css);
+
+/*components*/
+@import url(components/status-bar.css);
+@import url(components/nav-bar.css);
+@import url(components/screen-header.css);
+@import url(components/user-component.css);
+@import url(components/badge.css);
+
+/*screens*/
+@import url(screens/login-form.css);
+@import url(screens/welcom-header.css);
+@import url(screens/friends.css);
+
 @import url(variables.css);
 
 body {
+  color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
