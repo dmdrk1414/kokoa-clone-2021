@@ -36,3 +36,16 @@
   bottom: 17px;
   border-radius: 50%;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+
+.screen-header_icons .fa-cog {
+  animation: rotateCog 0.2s linear infinite;
+}
